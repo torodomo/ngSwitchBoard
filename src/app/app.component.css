@@ -1,0 +1,36 @@
+body{
+    width: 1000px;
+    margin: 0 auto;
+}
+.board{
+    height: 100px;
+    width: 100px;
+    background-color: burlywood;
+    border: 2px solid black;
+    padding: 25px;
+    box-sizing: border-box;
+    display: inline-block
+}
+.header{
+    width: 1000px;
+    text-align: center;
+}
+.onswitch{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(10, 204, 113);
+    border: 2px solid black;
+    box-sizing: border-box;
+    color: white;
+}
+.offswitch{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(228, 77, 77);
+    border: 2px solid black;
+    box-sizing: border-box;
+    color: white;
+}
+button:focus{
+    outline: none;
+}

@@ -1,0 +1,14 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<body>
+  <div style="text-align:center">
+    <h1>
+      Welcome to {{title}}!
+    </h1>
+  </div>
+  <div id='header'>
+    <div *ngFor="let switch of switchboard;let idx = index;" class="board">
+      <button *ngIf="switch" class="onswitch" (click)="switchOnOff(idx,false)">On</button>
+      <button *ngIf="!switch" class="offswitch" (click)="switchOnOff(idx,true)">Off</button>
+    </div>
+  </div>
+</body>
